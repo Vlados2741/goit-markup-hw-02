@@ -1,0 +1,174 @@
+/* logo color #2196F3 */
+/* primary color #212121 */
+/* secondary color #757575 */
+/* footer hyperlink color rgba(255, 255, 255, 0.6); */
+:root {
+  --logo-color: #2196f3;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --footer-hyperlink-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--logo-color);
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: var(--primary-color);
+}
+.navigation {
+  list-style-type: none;
+}
+.navigation-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.navigation-link:hover {
+  color: var(--logo-color);
+}
+.navigation-link:focus {
+  color: var(--logo-color);
+}
+body .contacts {
+  font-size: 14px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+body .contacts:hover {
+  color: var(--logo-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button {
+  background-color: var(--logo-color);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.advants {
+  list-style-type: none;
+}
+.advants-head {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.advants-list {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.about-us-head {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+  text-align: center;
+}
+.what-we-do-images {
+  list-style-type: none;
+}
+.what-we-do-image-list {
+  width: 370px;
+  height: 294px;
+}
+.our-team-head {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+  text-align: center;
+}
+.our-team-list {
+  list-style-type: none;
+}
+.our-team-photo {
+  width: 270px;
+  height: 260px;
+}
+.our-team-person {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.our-team-person-profession {
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+footer {
+  background-color: #2f303a;
+}
+.logo-part-footer {
+  color: #ffffff;
+}
+.footer-navigation {
+  list-style-type: none;
+}
+footer .contacts {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+address {
+  font-style: normal;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* CSS for portfolio */
+.portfolio-options {
+  list-style-type: none;
+}
+.portfolio-button {
+  background-color: #f5f4fa;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.portfolio-button:hover {
+  background-color: var(--logo-color);
+  color: #ffffff;
+}
+.portfolio-button:focus {
+  background-color: var(--logo-color);
+  color: #ffffff;
+}
+.projects-list {
+  list-style-type: none;
+}
+.project-option-image {
+  width: 370px;
+  height: 294px;
+}
+.project-option-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+.project-option-type {
+  font-size: 16px;
+  color: var(--secondary-color);
+}
