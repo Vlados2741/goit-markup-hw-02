@@ -194,6 +194,9 @@ address {
   background-color: var(--logo-color);
   color: var(--white);
 }
+.projects {
+  list-style-type: none;
+}
 .project-option-image {
   width: 370px;
   height: 294px;
